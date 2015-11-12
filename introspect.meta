@@ -1,0 +1,5 @@
+;; -*- scheme -*-
+((synopsis "Module introspection")
+ (author "Mario Domenech Goulart")
+ (category lang-exts)
+ (license "BSD"))
