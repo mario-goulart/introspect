@@ -1,0 +1,8 @@
+;; -*- scheme -*-
+((synopsis "Module introspection")
+ (author "Mario Domenech Goulart")
+ (category lang-exts)
+ (license "BSD")
+ (components
+  (extension introspect
+             (csc-options "-O3" "-d1"))))

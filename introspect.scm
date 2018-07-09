@@ -2,7 +2,14 @@
 
 (introspect)
 
-(import chicken scheme data-structures)
+(import scheme)
+(cond-expand
+  (chicken-4
+   (import chicken data-structures))
+  (chicken-5
+   (import (chicken base)
+           (chicken string)))
+  (else))
 
 (define (introspect #!optional mod)
   (if mod
