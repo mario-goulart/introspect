@@ -9,7 +9,8 @@
   (chicken-5
    (import (chicken base)
            (chicken string)))
-  (else))
+  (else
+   (error "Unsupported CHICKEN version.")))
 
 (define (introspect #!optional mod)
   (if mod
