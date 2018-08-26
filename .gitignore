@@ -1,0 +1,7 @@
+introspect.build.sh
+introspect.import.scm
+introspect.import.so
+introspect.install.sh
+introspect.link
+introspect.so
+introspect.static.o
