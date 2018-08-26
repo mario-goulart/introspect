@@ -3,6 +3,7 @@
  (author "Mario Domenech Goulart")
  (category lang-exts)
  (license "BSD")
+ (component-options
+  (csc-options "-O3" "-d1"))
  (components
-  (extension introspect
-             (csc-options "-O3" "-d1"))))
+  (extension introspect)))
